@@ -1,5 +1,3 @@
-(ql:quickload :cl-gtk4)
-
 (defpackage gfortune
   (:use #:cl #:gtk4)
   (:export #:fortune))
