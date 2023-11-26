@@ -19,7 +19,7 @@
 		     :id "org.nilio.gfortune")
   (define-main-window
       (window (make-application-window :application *application*))
-    (setf (window-title window) "Hello, World!")
+    (setf (window-title window) "Fortune")
     (let ((box (make-box :orientation +orientation-vertical+
 			 :spacing 4))
 	  (label (make-label :str (get-fortune)))
